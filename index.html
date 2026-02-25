@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuteDude – HTML Learning Demo Page</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to <mark>TuteDude</mark></h1>
+        <p><em>Learn HTML</em> with <strong>fun and practice</strong></p>
+        
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="hero.jpg" alt="Learning with TuteDude" width="600">
+            <figcaption>Learn HTML step by step with TuteDude</figcaption>
+        </figure>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <article>
+                <h2>About TuteDude</h2>
+                <p><abbr title="HyperText Markup Language">HTML</abbr> learning platform started in <time datetime="2024">2024</time> with a mission to make coding <strong>simple and fun</strong>.</p>
+            </article>
+            <blockquote>
+                "TuteDude makes learning interactive and enjoyable."
+                <cite>– Student Review</cite>
+            </blockquote>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu">
+            <h2>Menu</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Duration</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Basics</td>
+                        <td>2 Weeks</td>
+                        <td>
+                            <table border="1">
+                                <tr><td>Topics</td><td>Tags, Attributes</td></tr>
+                                <tr><td>Nutrition</td><td>Knowledge Boost</td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Advanced HTML</td>
+                        <td>4 Weeks</td>
+                        <td>
+                            <table border="1">
+                                <tr><td>Topics</td><td>Forms, Media</td></tr>
+                                <tr><td>Nutrition</td><td>Deep Learning</td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr><td colspan="3">Enroll now for exciting courses!</td></tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Trivia Section -->
+        <section id="trivia">
+            <h2>Trivia</h2>
+            <aside>
+                <details>
+                    <summary>Did you know?</summary>
+                    <p>HTML was first created in 1991 by Tim Berners-Lee.</p>
+                </details>
+            </aside>
+        </section>
+
+        <!-- Extras Section -->
+        <section id="extras">
+            <h2>Extras</h2>
+            <audio controls>
+                <source src="demo-audio.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+            <video controls width="400">
+                <source src="demo-video.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <!-- Feedback Form -->
+        <section id="feedback">
+            <h2>Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Share your feedback</legend>
+                    <label>Name: <input type="text" name="name"></label><br><br>
+                    <label>Email: <input type="email" name="email"></label><br><br>
+                    <label>Course:
+                        <select name="course">
+                            <option>HTML Basics</option>
+                            <option>Advanced HTML</option>
+                        </select>
+                    </label><br><br>
+                    <label>Message:<br>
+                        <textarea name="message" rows="4" cols="40"></textarea>
+                    </label><br><br>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <address>
+            Contact us: support@tutedude.com
+        </address>
+        <p>&copy; <time datetime="2026">2026</time> TuteDude. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
