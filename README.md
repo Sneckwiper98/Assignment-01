@@ -41,7 +41,7 @@ It demonstrates the use of semantic HTML elements, multimedia embedding, forms, 
 
 ## 🔗 Links
 - **GitHub Repo:** [https://github.com/Sneckwiper98/Assignment-01] 
-- **Live Demo** []  
+- **Live Demo** [https://assisment01.netlify.app/]  
 
 ---
 
