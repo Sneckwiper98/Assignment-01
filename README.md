@@ -34,14 +34,14 @@ It demonstrates the use of semantic HTML elements, multimedia embedding, forms, 
 
 ## 📤 Submission Guidelines
 - Push the project to GitHub repository named **Assignment-01**  
-- Optionally deploy using **Netlify**, **Render**, or **Railway Functions**  
+- Optionally deploy using **Netlify** 
 - Add both links below in this README  
 
 ---
 
 ## 🔗 Links
-- **GitHub Repo:** [Your Repo Link Here]  
-- **Live Demo (Deployment):** [Your Deploy Link Here]  
+- **GitHub Repo:** [https://github.com/Sneckwiper98/Assignment-01] 
+- **Live Demo** []  
 
 ---
 
